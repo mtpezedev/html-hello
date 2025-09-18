@@ -1,0 +1,68 @@
+.post {
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width:500px;
+    margin-top: 12px;
+}
+body {
+    background: #fafafa;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+  /* esto ta feo pero con el border-radius 50% queda chueco porque no es una img */
+.insta-icon {
+    font-size: 32px;
+    background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5);
+    color: #fff;
+    border-radius: 12px;
+}
+
+.elipsis { 
+    font-size: 24px;
+    margin: 5px;
+}
+
+.post-header strong {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 24px;
+  margin: auto 0;
+  font-weight: 600;
+}
+.image {
+    width:100%;
+}
+
+.post-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 8px 4px;
+}
+
+.post-footer i{ 
+    font-size: 24px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+.post-p {
+    padding: 0px 16px 16px;
+}
+
+.post-p p{
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  margin: auto 0;
+  font-weight: 400;
+}
